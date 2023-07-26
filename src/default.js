@@ -2,7 +2,7 @@
 export default {
   // table data
   data: [],
-  perpage: 10,
+  perPage: 10,
   onEdit: null,
   onDelete: null,
 };
