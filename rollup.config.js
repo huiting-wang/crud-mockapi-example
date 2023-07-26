@@ -5,7 +5,7 @@ import json from '@rollup/plugin-json';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import alias from '@rollup/plugin-alias';
 import scss from 'rollup-plugin-scss';
-import { terser } from 'rollup-plugin-terser';
+import  terser  from '@rollup/plugin-terser';
 import cleanup from 'rollup-plugin-cleanup';
 import { optimizeLodashImports } from '@optimize-lodash/rollup-plugin';
 import serve from 'rollup-plugin-serve';
