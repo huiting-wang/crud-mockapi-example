@@ -41,7 +41,7 @@ class TableCRUD {
 
     $(element).empty();
 
-    if (data && data.length) {
+    if (data?.length > 0) {
       $.each(data, (key, item) => {
         const row = $('<tr></tr>');
 

@@ -49,7 +49,7 @@ app.get(`${apiUrl}/:id`, (req, res) => {
 // 新增資料
 app.post(apiUrl, (req, res) => {
   const lastData = userData[userData.length - 1];
-  const newID = Math.abs(lastData.id) + 1;
+  const newID = Number(lastData.id) + 1;
   const newData = {
     id: newID.toString(),
     name: req.body.name,
